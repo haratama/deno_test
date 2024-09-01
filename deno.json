@@ -1,8 +1,17 @@
 {
+  "fmt": {
+    "indentWidth": 2,
+    "singleQuote": true,
+    "lineWidth": 160,
+    "include": [
+      "server.ts"
+    ]
+  },
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
   }
+  
 }
